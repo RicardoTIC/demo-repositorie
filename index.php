@@ -14,5 +14,7 @@ foreach($arregloDatos as $rows) {
 echo "<p style='color:red;'>El siguiente parentisis es : </p>" . $nombre;
 echo "<p style='color:red;'>El siguiente parentisis es : </p>" . $nombre;
 
+echo "El comando cls sirve para limpiar nuestra ventana de comando de Windows CMD ";
+
 
 ?>
