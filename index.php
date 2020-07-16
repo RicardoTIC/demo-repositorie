@@ -13,7 +13,7 @@
 	foreach($arregloDatos as $rows) {
 	
 	echo "Estos son los datos de mi arreglo " . $rows ." <br> ";
-
+	echo "============================";
 	}
 
 
