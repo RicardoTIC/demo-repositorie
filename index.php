@@ -1,9 +1,10 @@
 <?php 
 
 	require_once "Clases/Persona.php";
-
+	
 	$p1 = new Persona();
-
+	
+	$edad = 23;
 	$nombre = $p1->setNom("Daniel");
 
 	echo "Este es el nombre de la clase Persona " . $p1->getNom() . "<br>";
@@ -20,7 +21,8 @@
 	echo "<p style='color:red;'>El siguiente parentisis es : </p>" . $nombre;
 	echo "<p style='color:red;'>El siguiente parentisis es : </p>" . $nombre;
 
-	echo "El comando cls sirve para limpiar nuestra ventana de comando de Windows CMD ";
+	echo "El comando cls sirve para limpiar nuestra ventana de comando de Windows CMD " . "<br>";
+	echo "La edad de este tipo es de  : " .  $edad;
 
 	
 
