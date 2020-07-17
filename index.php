@@ -7,7 +7,7 @@
 	$edad = 23;
 	$nombre = $p1->setNom("Daniel");
 	
-	echo "<p>Titulo del documento </p>";
+	echo "<h1>Titulo del documento </h1>";
 	echo "Este es el nombre de la clase Persona " . $p1->getNom() . "<br>";
 
 	$arregloDatos =  array("Nombre"=>"Ricardo","Apellidos"=>"Herrera","Telefono"=>"(656)358-8226");
