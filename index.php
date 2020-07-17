@@ -4,7 +4,7 @@
 
 	$p1 = new Persona();
 
-	$p1->setNom("Daniel");
+	$nombre = $p1->setNom("Daniel");
 
 	echo "Este es el nombre de la clase Persona " . $p1->getNom() . "<br>";
 
